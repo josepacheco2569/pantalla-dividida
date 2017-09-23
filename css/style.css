@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: sans-serif;
+	font-size: 3em;
+	font-weight: bold;
+	display: flex;
+	min-height: 100vh;
+}
+
+aside, main{
+	width: 50%;
+	display: flex;
+	align-items: center;
+	padding: .5em;
+	box-sizing: border-box;
+}
+
+aside{
+	background: #555;
+	color: #fff;
+	justify-content: flex-end;
+}
+
+main{
+	background: #eee;
+	color: #555;
+}
